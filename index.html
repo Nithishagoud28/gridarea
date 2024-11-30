@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .gd {
+            display: grid;
+            background-color: black;
+            grid-template-areas:
+             "area1 area2  area2  area3 area4 area5"
+             "area6 area7  area7  area7 area4 area5"
+             "area6 area7  area7  area7 area4 area5";
+             gap: 10px;
+             grid-template-rows: 90px 60px 60px 40px;
+             padding: 30px;
+             text-align: center;
+
+
+        }
+        .v1 {
+           background-color: bisque;
+           grid-area: area1;
+        }
+        .v2 {
+            background-color: grey;
+            grid-area: area2;
+        }
+        .v3 {
+            background-color: yellow;
+            grid-area: area3;
+        }
+        .v4 {
+            background-color: lightcoral;
+            grid-area: area4;
+        }
+        .v5 {
+            background-color: lightblue;
+            grid-area: area5;
+        }
+        .v6 {
+            background-color: lightgoldenrodyellow;
+            grid-area: area6;
+        }
+        .v7 {
+            background-color: lightgray;
+            grid-area: area7;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gd1 {
+            display: grid;
+            background-color: black;
+            grid-template-areas:
+            "area1 area2 area2 area2 area3"
+            "area1 area4 area5 area6  area6"
+            "area1 area7 area8 area6 area6";
+            grid-template-rows: 90px 90px 90px 50px;
+            gap: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+        .a1 {
+            background-color: aqua;
+            grid-area: area1;
+        }
+        h1 {
+            border: 2px solid black;
+            background-color: lightblue;
+        }
+        .a2 {
+            background-color: pink;
+            grid-area: area2;
+        }
+        .a3 {
+            background-color: green;
+            grid-area: area3;
+        }
+        .a4 {
+            background-color: yellowgreen;
+            grid-area: area4;
+        }
+        .a5 {
+            background-color: yellow;
+            grid-area: area5;
+        }
+        .a6 {
+            background-color: blue;
+            grid-area: area6;
+        }
+        .a7 {
+            background-color: darkcyan;
+            grid-area: area7;
+        }
+        .a8 {
+            background-color: blueviolet;
+            grid-area: area8;
+        }
+        .gd2 {
+        background-color:black;
+        display: grid;
+        padding: 50px;
+        gap: 10px;
+        grid-template-areas:
+        "area1 area2 area3"
+        "area4 area6 area6"
+        "area5 area6 area6";
+        grid-template-rows: 80px 80px 80px 70px 70px;
+      }
+      .item1 {
+        background-color: lavender;
+        grid-area: area1;
+      }
+      .item2 {
+        background-color: aqua;
+        grid-area: area2;
+      }
+      .item3 {
+        background-color: palevioletred;
+        grid-area: area3;
+      }
+      .item4 {
+        background-color: lightcyan;
+        grid-area: area4;
+      }
+      .item5 {
+        background-color: grey;
+        grid-area: area5;
+      }
+      .item6 {
+        background-color: green;
+        grid-area: area6;
+    </style>
+  </head>
+  <body>
+    <h1>Different layouts using Grid</h1>
+    <div class="gd">
+      <div class="v1">Nithisha</div>
+      <div class="v2">Himavarsha</div>
+      <div class="v3">Lavanya</div>
+      <div class="v4">Shyam</div>
+      <div class="v5">Sumanth</div>
+      <div class="v6">Deepika</div>
+      <div class="v7">Vani</div>
+    </div>
+    <div class="gd1">
+      <div class="a1">One</div>
+      <div class="a2">Two</div>
+      <div class="a3">Three</div>
+      <div class="a4">Four</div>
+      <div class="a5">Five</div>
+      <div class="a6">Six</div>
+      <div class="a7">Seven</div>
+      <div class="a8">Eight</div>
+    </div>
+    <div class="gd2">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+      <div class="item4">item4</div>
+      <div class="item5">item5</div>
+      <div class="item6">item6</div>
+    </div>
+  </body>
+</html>
